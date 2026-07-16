@@ -10,6 +10,7 @@ Este projeto foi desenvolvido como atividade avaliativa do curso de Análise de 
 
 O desafio consiste em desenvolver um pipeline de dados de ponta a ponta utilizando Python e MySQL, seguindo a Arquitetura Medallion (Raw, Silver e Gold). O pipeline realiza a extração automatizada dos dados de Viagens a Serviço do Portal da Transparência do Governo Federal, preserva os dados originais na camada Raw, realiza a limpeza, tipagem e modelagem na camada Silver e, por fim, gera consultas, métricas e visualizações na camada Gold. Para a realização da atividade, foi utilizada uma base de dados disponibilizada em um arquivo .zip hospedado no Google Drive, contendo informações referentes aos seis primeiros meses de 2025.
 
+![Arquitetura Medallion](assets/arquitetura_medallion.png)
 ---
 
 ## Objetivos
@@ -58,6 +59,9 @@ O desafio consiste em desenvolver um pipeline de dados de ponta a ponta utilizan
   - duracao_dias
 - Inserção dos dados na camada Silver.
 
+### Modelo relacional da camada Silver
+![Modelo Relacional](assets/modelo_relacional.png)
+
 ### Fase 3 - Análise e gráficos (3_analise.ipynb)
 
 - Consultas SQL.
@@ -65,6 +69,8 @@ O desafio consiste em desenvolver um pipeline de dados de ponta a ponta utilizan
 - Geração de gráficos.
 - Resposta às perguntas de negócio.
 
+### Exemplo de Gráfico - valor médio por tipo de pagamento
+![Gráfico](assets/exemplo_grafico.png)
 ---
 
 ## Perguntas de negócio respondidas
